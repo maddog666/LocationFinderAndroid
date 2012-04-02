@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dip"
+    android:background="@color/background">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:padding="20dip">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello" />
+	<Button
+	    android:id="@+id/search_button"
+		android:layout_height="wrap_content"
+	    android:layout_width="fill_parent"	    
+	    android:text="@string/search_button_label" />
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical"
+    	android:layout_marginLeft="20dip"
+    	android:layout_marginRight="20dip"
+    	android:padding="20dip">
+		<TableLayout
+		    android:layout_height="wrap_content"
+		    android:layout_width="wrap_content"
+		    android_gravity="center"
+		    android:stretchColumns="1">
+		    <TableRow>
+		        <TextView
+		            android:text="@string/radius_label" />
+		        <EditText	            
+		            android:id="@+id/radius_input"
+		            android:textSize="13sp"
+		            android:layout_width="10sp"
+		            android:inputType="number"
+		            android:text="@string/radius_constant"
+		            android:singleLine="True"
+		            />    
+		        <TextView		  
+	        		android:text="@string/radius_meter_label" />
+		    </TableRow>
+		    
+		</TableLayout>
+		<TableLayout
+		    android:layout_height="wrap_content"
+		    android:layout_width="wrap_content"
+		    android_gravity="center"
+		    android:stretchColumns="1">
+		    <TableRow>
+		        <TextView
+			        android:layout_width="fill_parent"
+	       			android:layout_height="wrap_content"
+	        		android:text="@string/category_label" />
+		        <EditText 
+		            android:id="@+id/category_input"
+		            android:textSize="13sp"
+		            />    
+		    </TableRow>	    	    
+		</TableLayout>
+    </LinearLayout>
+	<Button
+	    android:id="@+id/exit_button"
+	    android:layout_height="wrap_content"
+	    android:layout_width="fill_parent"		
+	    android:text="@string/exit_button_label" />
+	</LinearLayout>
+</LinearLayout>

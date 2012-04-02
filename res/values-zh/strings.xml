@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">你好, LocationFinderAndroidActivity!</string>
+    <string name="app_name">LocationFinderAndroid</string>
+	<string name="radius_label">半徑: </string>
+	<string name="radius_meter_label">公尺</string>
+	<string name="category_label">分類: </string>
+	<string name="search_button_label">搜尋</string>
+	<string name="exit_button_label">離開</string>
+	<string name="latitude_label">緯度: </string>
+	<string name="longitude_label">經度: </string>
+	<string name="locality_label">Locality: </string>
+	<string name="location_dialog_label">餐廳</string>
+	
+	    <string name="reverse_geocode_url"></string>
+	
+	<string name="search_title">Search Location</string> 
+	<string name="search_greeting">Hello, this is search</string>
+	
+	<string name="map_api_key">0foGVbmrZxEiFkujcsiXP77fgQc4GLpucy1tHZw</string>
+	<string name="default_latitute">25.037977</string>
+	<string name="default_longitude">121.548829</string>
+	<string name="map_zoom_level">15</string>
+</resources>
